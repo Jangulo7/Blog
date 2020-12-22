@@ -1,0 +1,115 @@
+/* Media queries */
+/* Medium screens */
+@media(min-width: 600px) and (max-width: 900px) {
+    nav ul {
+      display: flex;
+      justify-content: flex-end;
+    }
+  
+    nav li{
+      flex-grow:1;
+      text-align:center;
+    }
+  
+    h1, 
+    h2 {
+      font-weight: 400;
+      font-size: 16px;
+    }
+    
+    h3 {
+      font-size: larger;
+    }
+
+    p {
+      font-size: larger;
+    }
+  }
+
+/* Big screens */  
+@media(min-width: 901px) {
+    nav {
+        padding: 1em;
+        font-family: sans-serif;
+    }
+      
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        background: #312626;
+    }
+      
+    nav li a {
+        color: whitesmoke;
+        display: block;
+        text-decoration: none;
+        padding: .5em 1em;
+    }
+      
+    nav li a:hover {
+        background:#891337;
+        color: whitesmoke;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: flex-end;
+    }
+  
+    nav li{
+      flex-grow:2;
+      text-align:center;
+    }
+  
+    h1, 
+    h2 {
+      font-weight: 600;
+      font-size: larger;
+    }
+  
+    h3 {
+      font-size: larger;
+    }
+    
+    p {
+      font-size: larger;
+    }
+
+    blockquote {
+      font-size: larger;
+    }
+
+   ol {
+      font-size: larger;
+    }
+  }
+
+  /* Small screens */
+  @media(max-width: 599px) {
+    .hd {
+      float: none;
+      display: block;
+      text-align: left;
+      background-color: white;
+      }
+
+    h1 {
+      font-size: smaller;
+    }
+  }
+
+  /* Inline Form for medium and small screens*/
+  @media (max-width: 600px) {
+    .form-inline input {
+      margin: 10px 10px;
+      max-width: 0.5fr;
+    }
+  
+    .form-inline {
+      flex-direction: column;
+      align-items: stretch;
+      padding: 10px 10px;
+      margin: 20px 20px;
+    }
+  }

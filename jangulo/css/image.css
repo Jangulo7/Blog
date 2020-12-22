@@ -1,0 +1,68 @@
+/* Images style */
+
+/* Hero image - Homepage */
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tech-hero.png");
+    height: 50%;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Blog card image - Homepage */
+.card img {
+    width: 275px;
+    height: 183px;
+    border-radius: 20px;
+    justify-self: center;
+    opacity: 0.6;
+}
+
+/* Author image - Post and About sections */
+.author-card img {
+    max-width: 90%;
+    height: auto;
+    justify-self: center;
+}
+
+/* Article image - Post section */
+.post-img1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/infoSecurity.jpg");
+    height:200px;
+    background-color: #ddbdbd;
+    width: 100%;
+    padding: 20px;
+    background-size: contain;
+}
+
+.post-img2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/ai.png");
+    height:200px;
+    background-color: #ddbdbd;
+    width: 100%;
+    padding: 20px;
+    background-size: contain;
+}
+
+/* About Section image */
+.about-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/about.png");
+    height:200px;
+    background-color: #ddbdbd;
+    width: 100%;
+    padding: 20px;
+    background-size: contain;
+}
+
+/* Contact Section image */
+.bye-image {
+    /* Use "linear-gradient" to add a darken background effect to the image */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/contact.jpg");
+    height: 50%;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
