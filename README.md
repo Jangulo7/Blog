@@ -7,7 +7,7 @@ The article text of post page was extracted (with some paraphrasing) from these 
 https://www.varonis.com/blog/working-in-cybersecurity/
 https://www.womenintech.co.uk/the-future-is-female-opportunities-for-women-in-ai
 
-3. Images: home page and contact page are using purchased DepositPhotos images. The about page is using a generic (not purchased) image. The images used in blog cards were obtained from Internet
+3. Images: home page and contact page are using purchased DepositPhotos images. The about page is using a generic (not purchased) image. The images used in blog cards were obtained from Internet. The avatar in About page was done in the website https://www.creartuavatar.com/index.php.
 
 4. Code reference: the W3School site (https://www.w3schools.com/) was consulted during project development.
 
